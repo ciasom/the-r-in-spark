@@ -124,7 +124,7 @@ spark_read_text(sc, "hello", "hello.txt")
 
 ### Web Interface
 
-Most of the Spark commands will get started from the R console; however, it is often the case that monitoring and analizing execution is done through Spark's web interface. This interface is a web page provided by the driver node which can be accessed from `sparklyr` by running:
+Most of the Spark commands will get started from the R console; however, it is often the case that monitoring and analyiing execution is done through Spark's web interface. This interface is a web page provided by the driver node which can be accessed from `sparklyr` by running:
 
 ```{r eval=FALSE}
 spark_web(sc)
@@ -162,4 +162,4 @@ this will terminate the connection to the cluster but also terminate the cluster
 
 This chapter walked you through installing R, Java, RStudio and `sparklyr` as the main tools required to use Spark from R. We covered installing local Spark clusters using `spark_install()` and learned how to launch the web interface using `spark_web(sc)` and view logs using `spark_log(sc)`.
 
-It is my hope that this chapter will help anyone interested in learning cluster computing using Spark and R to get you started, ready to experiment on your own and ready to tackle actual data analysis and modeling tasks without any makor blockers. However, if you hit any installation or connection issues, start by browsing online for the error message or open a GitHub issue under [https://github.com/rstudio/sparklyr/issues](https://github.com/rstudio/sparklyr/issues) to help you get going.
+It is my hope that this chapter will help anyone interested in learning cluster computing using Spark and R to get you started, ready to experiment on your own and ready to tackle actual data analysis and modeling tasks without any major blockers. However, if you hit any installation or connection issues, start by browsing online for the error message or open a GitHub issue under [https://github.com/rstudio/sparklyr/issues](https://github.com/rstudio/sparklyr/issues) to help you get going.
